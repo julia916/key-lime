@@ -1,0 +1,156 @@
+body{
+    /*background-color:rgb(221, 213, 213);*/
+    background-color:white;
+}
+
+/*------------------------------------------------*/
+
+#cover{
+    max-width: 25%;
+    /*
+    border: 12px solid #a5c747;
+    */
+    border-radius: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+#stars{
+    max-width: 15%;
+    margin-top: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3{
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 0.5em;
+    border: 4px dotted #000000;
+}
+
+#author{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#caption{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    margin: 2.2em 0em 1em 22em ;
+    width: 50%;
+}
+
+#servings{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2.2em 0em 0em 25em ;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /*width: 50%;*/
+    border-radius: 16px;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    background-color:rgb(173, 206, 121);
+}
+
+#servCell{
+    padding-right: 2.5em;
+    padding-left: 0.8em;
+}
+/*------------------------------------------------*/
+
+#line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heading{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.9em;
+    margin: 1.5em 0em 1em 6em;
+}
+
+.ingredientsList{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    margin: 0em 0em 1em 1em;
+}
+
+.ingredientsList td{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+}
+
+#ingredientPics{
+    border-radius: 16px;
+    max-width: 30%;
+}
+
+/* DIRECTIONS */
+.dirList, li{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    margin-right: 3em;
+    margin-left: 6em;
+}
+
+#pbCake, #meringue{
+    border-radius: 16px;
+    max-width: 60%;
+    margin: 0em 0em 0em 12em;
+}
+
+#goesWellCaption{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3em;
+    margin-left: 9.4em;
+    margin-bottom: 2em;
+}
+
+a{
+    color: rgb(56, 145, 46);
+}
+
+/*NAV BAR*/
+.nav ul {
+    color:rgb(56, 145, 46);
+}
+
+#navLink{
+    margin: 1em 2em 1em 11em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+    width: 1em;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 0.9em;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a5c747;
+  }
